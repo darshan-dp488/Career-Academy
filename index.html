@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E learning</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="javascript/java1.js"></script>
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <div id="logo">
+            <a href="#home"><img src="img/logofinal.png " alt=""></a>
+        </div>
+        <ul class="item">
+            <li class="item" id=item1><a href="#home">Home</a> </li>
+            <li class="item" id=item2><a href="#about">About</a></li>
+            <li class="item" id=item3><a href="#courses-heading">Courses</a></li>
+            <li class="item" id=item4><a href="#contact">Contact us</a></li>
+        </ul>
+
+
+        <a href="javascript:void(0);" class="mobile-menu-btn" onclick="mobileFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        <!-- <strong id="mobile-menu-btn">Menu</strong> -->
+        <form class="example" action="action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+    </nav>
+
+    <div id="topnav">
+        <div id="mobile-menu">
+            <p class="smallnav"><a class="ab" href="#about">About</a></p>
+            <p class="smallnav"><a class="ab" href="#courses-heading">Courses</a></p>
+            <p class="smallnav"><a class="ab" href="#contact">Contact us</a></p>
+        </div>
+        <!-- <a href="javascript:void(0);" class="mobile-menu-btn" onclick="mobileFunction()">
+            <i class="fa fa-bars"></i>
+          </a> -->
+    </div>
+
+
+    
+
+
+
+
+
+    <section id="home">
+        <h1 class="h-primary">Quick & Easy Training During These</h1>
+        <span class="h-primary">Difficult Times</span>
+        <p class="p1" id="para1">Deliver uninterrupted, high quality and advance technology</p>
+        <p class="p1">online Training with our Rapid Elearning Solutions.<span id="dots" ....></span><span id="more">Overcome training
+                disruptions and avail our special discount
+                Rates!."If you want to teach people a new way of thinking, don’t bother trying to
+                teach them.Instead, give them a tool, the use of which will lead to new ways of thinking".</span>
+        </p>
+        <button onclick="myFunction()" id="myBtn">READ MORE</button>
+
+    </section>
+
+    <section id="about">
+        <h1 id="About1">ABOUT US</h1>
+        <p id="About2">
+            Career Academy is an online platform that conducts training programs that aimed at at helping young career
+            seekers understand the latest trending technology of the IT sector and the job role they aspire to take on.
+            Our uniquely designed programs empower young individuals to garner skills and knowledge for the modern
+            global industry.<span id="dotes">...</span><span id="moreinfo">The curriculums of the program conducted at
+                Career Academy are developed by industry experts taking into consideration the current environment
+                and challenges faced by recruiting sectors. Their insight and vision have assisted us to enhance the
+                knowledge and skills of youngsters to take on modern-day corporate challenges.</span>
+        </p>
+        <button onclick="ayFunction()" id="ayBtn">READ MORE</button>
+
+    </section>
+
+    <div id="courses-heading">
+        <h1>COURSES OFFERED</h1>
+    </div>
+
+    <section id="container-courses">
+        <!-- <h1 id="h1-courses">COURSES OFFERED</h1> -->
+        <div id="courses">
+            <div class="course" id="course1">
+                <img src="img/service4.png" alt="">
+                <h1 class="center1">Web Devlopment</h1>
+                <p class="center">We Design and Create Quality Website.Go from no-code to an in-demand junior web
+                    developer.
+                </p>
+            </div>
+            <div class="course" id="course1">
+                <img src="img/service2.jpg" alt="">
+                <h1 class="center1">Cloud Computing</h1>
+                <p class="center">With the cloud, individuals and small businesses can snap their fingers and instantly
+                    set up enterprise-class services.
+                </p>
+            </div>
+            <div class="course" id="course1">
+                <img src="img/service3.jpg" alt="">
+                <h1 class="center1">Artificial Intelligence</h1>
+                <p class="center">It's going to be interesting to see how society deals with artificial intelligence,
+                    but it will definitely be cool.
+                </p>
+            </div>
+            <div class="course" id="course1">
+                <img src="img/service5.png" alt="">
+                <h1 class="center1">Machine Learning</h1>
+                <p class="center">Machine learning will bring about not just a new era of civilization, but a new stage
+                    in the evolution of life on earth.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="name" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number: </label>
+                    <input type="phone" name="name" id="phone" placeholder="Enter your phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="6"></textarea>
+                </div>
+                <button type="submit" form="form1" value="Submit">Submit</button>
+            </form>
+
+
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            Copyright &copy; www.CareerAcademy.com. All rights reserved!
+        </div>
+    </footer>
+
+
+
+
+
+
+</body>
+
+</html>
